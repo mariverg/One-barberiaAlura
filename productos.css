@@ -85,3 +85,10 @@ footer {
     text-align: center;
     background: url(imagenes/bg.jpg);
 }
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 20px;
+
+}
