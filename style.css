@@ -246,9 +246,27 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .caja, .principal, .mapa-contenido {
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos{
         width: auto;
     }
+    .lista-diferenciales, .imagen-diferenciales, .productos li{
+        width: 100%;
+        margin: 2%;
+    }
+    .enviar:hover {
+        width: 100%;
+    }
 }
+
+
+
+  
+
 
 
